@@ -59,10 +59,7 @@ body{
   .modal-content {
 	position: relative;
 	background-color:#000;
-    margin: auto;
-	padding: 0;
 	width: 90%;
-	height:100vh;
 	/* max-width: 1200px; */
 
   }
@@ -95,8 +92,8 @@ body{
 
 	max-height:80vh;
 	margin-bottom:10vh;
-	height:auto;
-	width:auto;
+	height:80vh;
+	width:70%;
   }
   
   /* Next & previous buttons */
