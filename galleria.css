@@ -38,81 +38,6 @@ body{
 
 	display:none;
 }
-@media (max-width: 480px) {
-	.immagine{
-		width: 98%;
-		margin: 1%;
-	}
-	#content {
-
-		width:100%;
-		height:100vh;
-		background-color:#fff;
-		background-image:url("images/MAIALE-ANIMAZIONE1.gif") ;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size:100% 40%;
-	}
-
-	.mySlides {
-		display: none;
-		text-align:center;
-		background-color:#000;
-		height:100vh;
-		width:100%;
-	  }
-	
-	  .img_lightbox {
-	
-		max-height:70vh;
-		margin-top:15vh;
-		max-width:80%;
-		margin-left:10%;
-		height:auto;
-		width:auto;
-	  }
-
-}
-
-@media (max-width: 720px) and (min-width: 480px){
-	.immagine{
-		width: 47%;
-	}
-	#content {
-
-		width:100%;
-		height:100vh;
-		background-color:#fff;
-		background-image:url("images/MAIALE-ANIMAZIONE1.gif") ;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size:100% 40%;
-	}
-	.mySlides {
-		display: none;
-		text-align:center;
-		background-color:#000;
-		height:100vh;
-		width:100%;
-	  }
-	
-	  .img_lightbox {
-	
-		max-height:70vh;
-		margin-top:15vh;
-		max-width:70%;
-		margin-left:10%;
-		height:auto;
-		width:auto;
-	  }
-}
-
-@media (max-width: 1020px) and (min-width: 720px){
-	.immagine{
-		width: 30%;
-	}
-}
-
 
 
 
@@ -203,3 +128,85 @@ body{
   .next:hover {
 	background-color: rgba(0, 0, 0, 0.8);
   }
+
+
+
+
+@media (max-width: 480px) {
+	.immagine{
+		width: 98%;
+		margin: 1%;
+	}
+	#content {
+
+		width:100%;
+		height:100vh;
+		background-color:#fff;
+		background-image:url("images/MAIALE-ANIMAZIONE1.gif") ;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size:70% 50%;
+	}
+
+	.mySlides {
+		display: none;
+		text-align:center;
+		background-color:#000;
+		height:100vh;
+		width:100%;
+	  }
+	
+	  .img_lightbox {
+	
+		max-height:70vh;
+		margin-top:15vh;
+		max-width:80%;
+		margin-left:10%;
+		height:auto;
+		width:auto;
+	  }
+
+}
+
+@media (max-width: 720px) and (min-width: 480px){
+	.immagine{
+		width: 47%;
+	}
+	#content {
+
+		width:100%;
+		height:100vh;
+		background-color:#fff;
+		background-image:url("images/MAIALE-ANIMAZIONE1.gif") ;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size:70% 50%;
+	}
+	.mySlides {
+		display: none;
+		text-align:center;
+		background-color:#000;
+		height:100vh;
+		width:100%;
+	  }
+	
+	  .img_lightbox {
+	
+		max-height:70vh;
+		margin-top:15vh;
+		max-width:70%;
+		margin-left:10%;
+		height:auto;
+		width:auto;
+	  }
+}
+
+@media (max-width: 1020px) and (min-width: 720px){
+	.immagine{
+		width: 30%;
+	}
+}
+
+
+
+
