@@ -85,7 +85,7 @@ body{
   /* Hide the slides by default */
   .mySlides {
 	display: none;
-	margin-top:10vh;
+	text-align:center;
 	background-color:#000;
   }
 
@@ -93,9 +93,9 @@ body{
 
 	
 	
-	height:90vh;
-	width:90%;
-	  margin-left:10%;
+	height:auto;
+	width:auto;
+	  
   }
   
   /* Next & previous buttons */
