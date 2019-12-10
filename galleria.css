@@ -59,7 +59,7 @@ body{
   .modal-content {
 	position: relative;
 	background-color:#000;
-	width: 90%;
+	
 	/* max-width: 1200px; */
 
   }
@@ -84,14 +84,14 @@ body{
   /* Hide the slides by default */
   .mySlides {
 	display: none;
-	text-align:center;
+	
 	background-color:#000;
   }
 
   .img_lightbox {
 
-	max-height:80vh;
-	margin-bottom:20vh;
+	
+	
 	height:60vh;
 	width:60%;
 	  margin-left:20%;
